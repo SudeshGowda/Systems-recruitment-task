@@ -95,7 +95,7 @@ def e1(m, k):  # Playfair cipher
 m = "d3ZucXN0b2tib2xlamp5ZW5zdnlicGpsa3VhcGx2"
 m5 = e5(m)
 m4 = e4(m5, 13)
-m3 = e4(m4, 20) # Since both are ceaser ciphers, same function is called
+m3 = e4(m4, 20) # Since both are ceaser shift ciphers, same function is called
 m2 = e2(m3, 'cryptography')
 m1 = e1(m2, 'natdszgrqhebvpmxilfywcuko')
 print(m1)
